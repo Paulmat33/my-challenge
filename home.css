@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: box size;
 }
 header{
     display: flex;
@@ -115,6 +114,7 @@ margin-bottom: 43.12px;
     font-weight:400;
     opacity: 70%;
     justify-content: center;
+    margin-bottom: 47.66px;
 }
 .flex{
     display: flex;
@@ -129,9 +129,7 @@ margin-bottom: 43.12px;
     width: 80%;
     gap: 30px;
     margin: auto;
-}
-.flexa{
-    margin: auto;
+    margin-top: 30px;
 }
 .sectiona{
     margin: auto;
@@ -142,6 +140,7 @@ margin-bottom: 43.12px;
     border-radius: 5px;
 }
 .sectiona h4{
+    text-align: center;
     width: 147px;
     font-size: 20px;
     color: #292525;
@@ -154,6 +153,63 @@ margin-bottom: 43.12px;
     font-size: 16px;
     opacity: 70%;
 }
-.diagram{
-    margin-top: 96.42px;
+.content{
+    margin: 70px;
+}
+
+.folio{
+    text-align: center;
+}
+.folio p{
+    margin-top: 77.67px;
+    color: #7BC0E3;
+    font-weight: 700;
+    font-size: 24px;
+}
+.folio h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #292525;
+    margin-top: 16.32px    
+}
+.opti{
+    display: flex;
+    justify-content: center;
+    margin-top: 60.67px;
+    color: #7BC0E3;
+    gap: 69.48px;
+}
+.letter{
+    border: 1px solid;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.ipsum{
+    display: flex;
+    justify-content: space-between;
+    gap: 36.04px;
+    margin-top: 82.61px;
+    background-color: #60E1CB;
+}
+.ipsum p{
+    margin-top: 32.79px;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 30.64px;
+    opacity: 90%
+    
+}
+.hold{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 2150px;
+}
+.num{
+    border: 50px solid;
+    border-radius: 100%;
+    background: #FFFFFF;
+    
 }
