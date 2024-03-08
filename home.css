@@ -38,8 +38,9 @@ span {
 a {
   text-decoration: none;
   color: #60e1cb;
-  font-family: "DM Sans";
+  font-family: "dm sans";
 }
+
 .headBtn {
   padding: 11px 20px;
   margin-left: 52px;
@@ -84,16 +85,6 @@ a {
   display: flex;
   margin-top: 52.53px;
 }
-.ab1 {
-  font-size: 20px;
-  color: white;
-  background: #60e1cb;
-  border-radius: 1000px;
-  width: 188px;
-  padding-top: 22px;
-  padding-bottom: 22px;
-  border: none;
-}
 .ab {
   background: white;
   color: #60e1cb;
@@ -101,13 +92,19 @@ a {
   padding-top: 22px;
   padding-bottom: 22px;
   border: none;
-  width: 104px;
+  width: 188px;
   border-radius: 1000px;
+}
+.ab:hover{
+  background-color:#60e1cb;
+  color: #ffffff;
+  
 }
 .service {
   background: #e9fbf8;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 1000px;
 }
 .text2 h2 {
   text-align: center;
@@ -145,6 +142,7 @@ a {
   width: 359px;
   font-weight: 500;
   border-radius: 5px;
+  box-shadow: 0px 97px 90px 0px rgba(7, 0, 59, 0.12);
 }
 .sectiona h4 {
   text-align: center;
@@ -155,13 +153,21 @@ a {
 }
 .sectiona p {
   margin-top: 16px;
-  font-family: "DM Sans";
+  font-family: "dm sans";
   font-size: 16px;
   opacity: 70%;
 }
-.content {
-}
+.contenta{
+  padding: 50px;
 
+}
+.xyz{
+  background-color: #60e1cb;
+  opacity:20%;
+  height: 45.29px;
+  width: 45.29px;
+  border-radius: 50%;
+}
 .folio {
   text-align: center;
 }
@@ -202,7 +208,7 @@ a {
   border-radius: 16px;
   width: 472.01px;
   position: absolute;
-  top: 1900px;
+  top: 2200px;
   gap: 36.04px;
 }
 
@@ -220,11 +226,11 @@ a {
 
 .hold {
   position: absolute;
-  top: 2150px;
+  top: 2400px;
 }
 .hold2 {
   position: absolute;
-  top: 2100px;
+  right: 2000px;
 }
 
 .see {
@@ -508,7 +514,6 @@ footer {
   width: 206.65px;
   opacity: 40%;
 }
-
 .copy p{
   font-family: circular std;
 font-size: 16px;
