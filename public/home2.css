@@ -218,6 +218,12 @@ a{
     width: 675.93px;
 }
 
+.online2 >img{
+    width: 100%;
+}
+.online2{
+    height: 519.7px;
+}
 .online2 h2{
     font-family: Circular Std;
     font-size: 36px;
