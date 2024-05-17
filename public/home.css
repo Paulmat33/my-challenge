@@ -19,16 +19,22 @@ header {
   padding: 20px 0;
   margin: auto;
 }
-@media screen and (max-width: 768px){
-  header{
-    display: none;
-  }
-}
+
 nav {
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 22.77px;
+  text-align: right;
+  margin-left: 317.83px;
+}
+.home:hover {
+  background-color:#60e1cb;
+  color: #ffffff;
 }
 
 ul {
@@ -36,7 +42,8 @@ ul {
   justify-content: space-between;
   list-style: none;
   text-align: center;
-  gap: 52px;
+  align-items: center;
+  gap: 45px;
 }
 span {
   color: #60e1cb;
@@ -70,7 +77,14 @@ a {
   font-weight: 900;
   line-height: 65px;
   margin-bottom: 29.9px;
+  margin-top: 22.1px;
 }
+.border{
+  border-top:5px solid #7bc0e3;
+  border-radius: 5px;
+  width:22%
+}
+
 .dacode > img {
   width: 100%;
 }
@@ -124,11 +138,19 @@ a {
   background: #e9fbf8;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 1200px;
 }
+
 .text2 h2 {
   text-align: center;
   margin-bottom: 25.24px;
+  padding-top: 118.62px;
+  font-family: Circular Std;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60.72px;
+  text-align: center;
+
 }
 .text2 p {
   text-align: center;
@@ -137,7 +159,8 @@ a {
   line-height: 20.44px;
   font-weight: 400;
   opacity: 70%;
-  justify-content: center;
+  margin: auto;
+  width:50%;
   margin-bottom: 47.66px;
 }
 .flex{
@@ -220,19 +243,23 @@ a {
   width: 100%;
   height: 437px;
   margin-top: 148.54px;
+  position: relative;
 }
 .ipsum {
   display: flex;
   justify-content: space-between;
   border-radius: 16px;
-  width: 472.01px;
+  margin-right: 50px;
   position: absolute;
-  top: 2200px;
+  top: -100px;
   gap: 36.04px;
+  margin-left:50px;
+  z-index:1;
 }
 
 .pics {
   margin-top: 82.61px;
+  position: relative;
 }
 .ipsum p {
   font-family: circular std;
@@ -241,15 +268,19 @@ a {
   text-align: left;
   line-height: 31px;
   opacity: 90%;
+  width:90%;
 }
 
 .hold {
   position: absolute;
-  top: 2400px;
+  top: 10px;
+  z-index:1;
 }
 .hold2 {
   position: absolute;
-  right: 2000px;
+  top: 10px;
+  right: 0px;
+  z-index:1;
 }
 
 .see {
@@ -265,7 +296,9 @@ a {
   box-shadow: 0px 46px 52px 0px rgba(96, 225, 203, 0.56);
 }
 .see1 {
-  text-align: center;
+  margin-left: 50%;
+  position: absolute;
+  top: 400px;
 }
 .reality h2 {
   margin-top: 165.61px;
@@ -303,10 +336,10 @@ a {
 .allidea {
   display: flex;
   justify-content: space-between;
+  position: relative;
+
 }
-.allidea1 {
-  margin-bottom: 159.2px;
-}
+
 .work {
   display: flex;
   padding-left: 100px;
@@ -328,18 +361,17 @@ a {
   line-height: 25px;
 }
 
-.code > img {
-  width: 100%;
-}
 .code {
-  margin-top: 300px;
-  width: 90%;
+  margin-top: 650px;
+  width: 100%;
 }
 
 .interest {
   text-align: center;
-  background: rgba(96, 225, 203, 1);
+  background-image: url('./Dacode image/Group 11032.svg');
+  background-repeat: no-repeat;
   padding: 100px;
+  
 }
 .interest h1 {
   font-family: circular std;
@@ -375,6 +407,8 @@ a {
 .testi {
   text-align: center;
   margin-top: 175.67px;
+  margin-bottom: 101px;
+  position: relative;
 }
 .testi h4 {
   font-family: circular std;
@@ -392,6 +426,33 @@ a {
   margin-top: 16.65px;
   margin-bottom: 51.26px;
 }
+
+.imga{
+  margin-left: 10%;
+  z-index: 2;
+}
+.imgb{
+margin-left: 30%;
+}
+.nextbutton1{
+  position:absolute;
+  top: 300px;
+  left: 50px
+}
+
+.nextbutton2{
+  position:absolute;
+  top: 300px;
+  right: 30px
+}
+
+.circledot{
+  position: absolute;
+  top: 200px;
+  margin-left: 0px;
+  height: 30vh;
+}
+
 
 .blog {
   background: rgba(233, 251, 248, 1);
